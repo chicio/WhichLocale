@@ -10,9 +10,22 @@
 		5FC0C42B2D84D23800192A01 /* WhichLocale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhichLocale.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5FC0C4422D84E1B400192A01 /* Exceptions for "WhichLocale" folder in "WhichLocale" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5FC0C42A2D84D23800192A01 /* WhichLocale */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5FC0C42D2D84D23800192A01 /* WhichLocale */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5FC0C4422D84E1B400192A01 /* Exceptions for "WhichLocale" folder in "WhichLocale" target */,
+			);
 			path = WhichLocale;
 			sourceTree = "<group>";
 		};
@@ -86,11 +99,15 @@
 				};
 			};
 			buildConfigurationList = 5FC0C4262D84D23800192A01 /* Build configuration list for PBXProject "WhichLocale" */;
-			developmentRegion = en;
+			developmentRegion = "en-GB";
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				it,
+				de,
+				"it-CH",
+				"en-GB",
+				"en-IE",
 			);
 			mainGroup = 5FC0C4222D84D23800192A01;
 			minimizedProjectReferenceProxies = 1;
@@ -182,6 +199,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -236,6 +254,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -250,6 +269,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WhichLocale/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhichLocale/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -287,6 +308,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"WhichLocale/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WhichLocale/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

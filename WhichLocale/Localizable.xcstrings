@@ -1,0 +1,64 @@
+{
+  "sourceLanguage" : "en-GB",
+  "strings" : {
+    "App Locale" : {
+
+    },
+    "Bundle.preferredLocalizations" : {
+
+    },
+    "Current: %@" : {
+
+    },
+    "Device User Locale" : {
+
+    },
+    "Locale.preferredLanguages" : {
+
+    },
+    "mobile_app.greetings" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guten Morgen!"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello UK!"
+          }
+        },
+        "en-IE" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hello IE!"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buongiorno Italia!"
+          }
+        },
+        "it-CH" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buongiorno Svizzera!"
+          }
+        }
+      }
+    },
+    "Settings" : {
+
+    },
+    "UserDefaults AppleLanguages" : {
+
+    },
+    "WhichLocale" : {
+
+    }
+  },
+  "version" : "1.0"
+}
