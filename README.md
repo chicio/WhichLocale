@@ -13,4 +13,6 @@ localizations available in the app bundle.
 
 Click [here](XXX "ios locale how does it work") to read the post.
 
+![]
+
 NB.: I suggeste to try the app on a physical device to avoid any false positive/unwanted behaviour in the simulator.
