@@ -15,4 +15,4 @@ Click [here](XXX "ios locale how does it work") to read the post.
 
 <img src="https://raw.githubusercontent.com/chicio/WhichLocale/refs/heads/main/app-screenshot.png" width="300">
 
-NB.: I suggeste to try the app on a physical device to avoid any false positive/unwanted behaviour in the simulator.
+NB.: I suggest to try the app on a physical device to avoid any false positive/unwanted behaviour in the simulator.
